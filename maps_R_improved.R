@@ -1,5 +1,5 @@
 # =========================================================
-# WORLD BANK INCOME CLASSIFICATION MAP (PROFESSIONAL VERSION)
+# WORLD BANK INCOME CLASSIFICATION MAP
 # =========================================================
 # John Karuitha
 # =========================================================
