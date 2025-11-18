@@ -4,6 +4,7 @@
 # John Karuitha
 # =========================================================
 
+# NB: Internet connection needed
 # ---- Load Required Packages ----
 if (!require("pacman")) install.packages("pacman")
 
@@ -28,7 +29,7 @@ p_load_gh("ropensci/rnaturalearthdata")
 
 
 # ---- Load World Bank Income Classification Data ----
-world_bank <- read.csv("world-bank-income-groups.csv") %>%
+world_bank <- read.csv("https://raw.githubusercontent.com/Karuitha/R_lesson_WHO/refs/heads/master/world-bank-income-groups.csv") %>%
   clean_names() %>%
   filter(year == 2024) %>%
   transmute(
